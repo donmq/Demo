@@ -1,0 +1,59 @@
+{
+  "name": "demo-theme-vscode",
+  "version": "1.0.1",
+  "author": "MaiDon <donmqpk00888@gmail.com>",
+  "displayName": "Demo Theme",
+  "description": "A beautifully warm dual theme for Visual Studio Code",
+  "publisher": "MaiDon",
+  "icon": "logo.png",
+  "scripts": {
+    "package": "vsce package",
+    "build": "npm run build:dark",
+    "build:dark": "node src/dark/build"
+  },
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "galleryBanner": {
+    "color": "#FCEAE5",
+    "theme": "light"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "demo",
+    "warm"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Demo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/demo.json"
+      },
+      {
+        "label": "Demo Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/demo-italic.json"
+      },
+      {
+        "label": "Demo Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/demo-bold.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "mustache": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jolaleye/horizon-theme-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/jolaleye/horizon-theme-vscode/issues"
+  }
+}

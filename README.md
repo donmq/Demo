@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="preview" src="preview.png" width="90%">
+  <img alt="preview" src="./preview.png" width="90%">
 </p>
 
 ## Installation
@@ -64,10 +64,4 @@ For gray rather than red brackets around HTML tags...
   ]
 }
 ```
-
-## Contributing
-
-Check out the [contributing guide](CONTRIBUTING.md) to learn how you can report issues and help make changes.
-
-Always be sure to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 

@@ -1,6 +1,6 @@
 {
   "name": "demo-theme-vscode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "MaiDon <donmqpk00888@gmail.com>",
   "displayName": "Demo Theme",
   "description": "A beautifully warm dual theme for Visual Studio Code",
@@ -51,9 +51,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jolaleye/horizon-theme-vscode"
-  },
-  "bugs": {
-    "url": "https://github.com/jolaleye/horizon-theme-vscode/issues"
+    "url": "https://github.com/donmq/Demo"
   }
 }

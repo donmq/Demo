@@ -3,4 +3,3 @@ node_modules
 docs/.sass-cache
 docs/_site
 .prettierignore
-.DS_Store

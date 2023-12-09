@@ -50,7 +50,7 @@
         "editorCursor.background": "#1C1C1C",
         "titleBar.activeBackground": "#2e2e2e",
         "titleBar.inactiveBackground": "#262626",
-        "statusBar.background": "#1C1E26",
+        "statusBar.background": "#292929",
         "debugToolBar.background": "#1C1C1C",
         "statusBar.noFolderBackground": "#1C1C1C",
         "sideBar.foreground": "#d4e1e1",
@@ -106,7 +106,7 @@
         "panelTitle.activeBorder": "#E95378",
         "statusBar.foreground": "#fff",
         "statusBar.debuggingBackground": "#FAB38E",
-        "statusBar.debuggingForeground": "#06060C",
+        "statusBar.debuggingForeground": "#000000",
         "statusBarItem.hoverBackground": "#2E303E",
         "statusBarItem.prominentBackground": "#2E303E",
         "statusBarItem.prominentHoverBackground": "#6C6F93",
@@ -150,7 +150,10 @@
             }
         },
         {
-            "scope": "text.html.derivative",
+            "scope": [
+                "text.html.derivative",
+                ""
+            ],
             "settings": {
                 "foreground": "#b5b5b5"
             }
@@ -164,10 +167,16 @@
         },
         {
             "scope": [
-                "meta.attribute string"
+                "meta.attribute string",
+                "variable.other.object.ts",
+                "constant.character.other",
+                "variable.other.property.ts",
+                "constant.numeric.decimal.ts",
+                "storage.type.ts",
+                "keyword.operator.expression.of.ts"
             ],
             "settings": {
-                "foreground": "#e9d366"
+                "foreground": "#ffed91"
             }
         },
         {
@@ -259,7 +268,9 @@
         },
         {
             "name": "Constants (null, false, true)",
-            "scope": "constant",
+            "scope": [
+                "constant"
+            ],
             "settings": {
                 "foreground": "#569CD6"
             }
@@ -471,7 +482,8 @@
             "name": "Object/JSON property names",
             "scope": [
                 "support.type.property-name",
-                "meta.object-literal.key"
+                "meta.object-literal.key",
+                "meta.class.ts"
             ],
             "settings": {
                 "foreground": "#9CDCFE"

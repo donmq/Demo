@@ -160,14 +160,21 @@
         },
         {
             "name": "Tag attributes",
-            "scope": "entity.other.attribute-name",
+            "scope": [
+                "entity.other.attribute-name",
+                "meta.ng-binding.two-way.html",
+                "meta.element.custom.html",
+                "meta.ng-binding.template.sugar.html",
+                "meta.ng-binding.property.html",
+                "meta.attribute string"
+            ],
             "settings": {
                 "foreground": "#83df55"
             }
         },
         {
             "scope": [
-                "meta.attribute string",
+                "",
                 "variable.other.object.ts",
                 "constant.character.other",
                 "variable.other.property.ts",
@@ -199,7 +206,11 @@
                 "meta.attribute.tabindex.html string",
                 "meta.attribute.multiple.html string",
                 "meta.attribute.mask.html string",
-                "meta.attribute.mask string"
+                "meta.attribute.mask string",
+                "meta.attribute.src.html string",
+                "meta.attribute.alt.html string",
+                "meta.attribute.width.html string",
+                "meta.element.custom.html string"
             ],
             "settings": {
                 "foreground": "#CE9178"
@@ -334,9 +345,21 @@
             "scope": [
                 "entity.name.variable",
                 "variable"
+
             ],
             "settings": {
                 "foreground": "#8ad7ff"
+            }
+        },
+        {
+            "name": "Variable names(Tên biến, model)",
+            "scope": [
+                "variable.other.object.cs",
+                ""
+
+            ],
+            "settings": {
+                "foreground": "#4EC9B0"
             }
         },
         {

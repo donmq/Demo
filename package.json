@@ -1,6 +1,6 @@
 {
   "name": "demo-theme-vscode",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "MaiDon <donmqpk00888@gmail.com>",
   "displayName": "Demo Theme",
   "description": "A beautifully warm dual theme for Visual Studio Code",
@@ -32,7 +32,7 @@
       {
         "label": "Demo",
         "uiTheme": "vs-dark",
-        "path": "./themes/demo.json"
+        "path": "./themes/demo-bold.json"
       },
       {
         "label": "Demo Italic",

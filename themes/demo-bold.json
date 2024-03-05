@@ -191,7 +191,7 @@
             "name": "Comments",
             "scope": "comment",
             "settings": {
-                "foreground": "#BBBBBB4D",
+                "foreground": "#608B4E",
                 "fontStyle": "italic"
             }
         },
@@ -207,6 +207,16 @@
             "scope": "constant.language.boolean.false.ts",
             "settings": {
                 "foreground": "#569CD6"
+            }
+        },
+        {
+            "name": "Consta",
+            "scope": [
+                "constant.numeric.css",
+                "keyword.other.unit.px.css"
+            ],
+            "settings": {
+                "foreground": "#B5CEA8"
             }
         },
         {
@@ -234,7 +244,7 @@
             "name": "Tags",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#E95678E6",
+                "foreground": "#db2e2e",
                 "fontStyle": "bold"
             }
         },
@@ -252,7 +262,36 @@
             "name": "Tag attributes",
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#F09483E6",
+                "foreground": "#6dbb46",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Tag attributes",
+            "scope": [ 
+                "punctuation.definition.ng-binding-name.begin.html",
+                "punctuation.definition.ng-binding-name.end.html",
+                "html-template.ng.attributes.event-handler",
+                "html-template.ng.attributes.input-binding.first-level",
+                "html-template.ng.attributes.prefix.sugar",
+                "html-template.ng.attributes.suffix.sugar",
+                "html-template.ng.attributes.template.prefix",
+                "html-template.ng.attributes.template.variable"
+            ],
+            "settings": {
+                "foreground": "#6dbb46",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Tag attributes",
+            "scope": [ 
+                "meta.brace.round.ts",
+                "html-template.ng.interpolation.begin",
+                "html-template.ng.interpolation.end"
+            ],
+            "settings": {
+                "foreground": "#FAB795E6",
                 "fontStyle": "bold"
             }
         },
@@ -442,7 +481,7 @@
             "name": "CSS property names",
             "scope": "support.type.property-name.css",
             "settings": {
-                "foreground": "#BBBBBB"
+                "foreground": "#9CDCFE"
             }
         },
         {
@@ -473,7 +512,7 @@
             "name": "Tag brackets",
             "scope": "punctuation.definition.tag",
             "settings": {
-                "foreground": "#E95678B3",
+                "foreground": "#797979",
                 "fontStyle": "bold"
             }
         },

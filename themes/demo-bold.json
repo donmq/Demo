@@ -383,7 +383,7 @@
         "entity.name.tag.html"
       ],
       "settings": {
-        "foreground": "#db2e2e",
+        "foreground": "#F92672",
         "fontStyle": "bold"
       }
     },

@@ -225,7 +225,8 @@
                 "",
                 "variable.other.object.ts",
                 "constant.character.other",
-                "variable.other.property.ts",
+                "html-template.ng meta.element.custom.html variable.other.property.ts",
+                "html-template.ng variable.other.property.ts",
                 "constant.numeric.decimal.ts",
                 "storage.type.ts",
                 "keyword.operator.expression.of.ts"
@@ -388,9 +389,8 @@
         {
             "name": "Variable names(Tên biến, model)",
             "scope": [
-                "entity.name.variable",
-                "variable"
-
+                "variable.other.object.property.cs",
+                "variable.other.readwrite.cs"
             ],
             "settings": {
                 "foreground": "#8ad7ff"
@@ -399,8 +399,7 @@
         {
             "name": "Variable names(Tên biến, model)",
             "scope": [
-                "variable.other.object.cs",
-                ""
+                "variable.other.object.cs"
 
             ],
             "settings": {

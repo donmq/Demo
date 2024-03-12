@@ -291,9 +291,7 @@
     {
       "name": "Keyword, Storage",
       "scope": [
-        // "keyword",
         "storage.type",
-        "storage.modifier",
         "keyword.operator.expression.of.ts"
       ],
       "settings": {
@@ -316,7 +314,6 @@
       "name": "Keyword, Storage",
       "scope": [
         "storage.type.ts"
-        // "meta.var-single-variable.expr.ts"
       ],
       "settings": {
         "foreground": "#C74DED",
@@ -356,15 +353,6 @@
       }
     },
     {
-      "name": "async keyword",
-      "scope": [
-        "storage.modifier.async"
-      ],
-      "settings": {
-        "foreground": "#664a86"
-      }
-    },
-    {
       "name": "Keyword Operator Assignment",
       "scope": [
         "keyword.operator.assignment",
@@ -380,7 +368,8 @@
     {
       "name": "Entity HTML Tags",
       "scope": [
-        "entity.name.tag.html"
+        "entity.name.tag.html",
+        // "html-template.ng control-flow.ng variable.other.property.ts"
       ],
       "settings": {
         "foreground": "#F92672",
@@ -513,8 +502,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#B877DBE6",
-        "fontStyle": ""
+        "foreground": "#29D398"
       }
     },
     {

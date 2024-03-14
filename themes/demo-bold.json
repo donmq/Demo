@@ -241,7 +241,8 @@
       "scope": [
         "punctuation.definition.entity",
         "punctuation.definition.entity.js",
-        "punctuation.definition.entity.ts"
+        "punctuation.definition.entity.ts",
+        "source.ts meta.enum.declaration.ts storage.type.enum.ts"
       ],
       "settings": {
         "foreground": "#569CD6"
@@ -282,16 +283,17 @@
       "name": "Invalid",
       "scope": [
         "invalid",
-        "invalid.illegal"
+        "invalid.illegal",
+        "source.json.comments"
       ],
       "settings": {
-        "foreground": "#ff5370"
+        "foreground": "#fcb08ae6"
       }
     },
     {
       "name": "Keyword, Storage",
       "scope": [
-        "storage.type",
+        // "storage.type",
         "keyword.operator.expression.of.ts"
       ],
       "settings": {
@@ -303,7 +305,9 @@
       "name": "Keyword, Storage",
       "scope": [
         "meta.element.ng.html",
-        "source.ts meta.class.ts meta.method.declaration.ts storage.type.ts"
+        "source.ts meta.class.ts meta.method.declaration.ts storage.type.ts",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts",
+        "source.cs entity.name.function.cs"
       ],
       "settings": {
         "foreground": "#FFED91",
@@ -323,7 +327,10 @@
     {
       "name": "Keyword, Storage",
       "scope": [
-        "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts"
+        "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts",
+        "source.ts meta.class.ts meta.method.declaration.ts",
+        "source.ts meta.class.ts meta.field.declaration.ts",
+        "source.ts meta.enum.declaration.ts variable.other.enummember.ts"
       ],
       "settings": {
         "foreground": "#8AD7FF"
@@ -332,7 +339,10 @@
     {
       "name": "Arrow",
       "scope": [
-        "storage.type.function.arrow"
+        "storage.type.function.arrow",
+        "source.ts meta.class.ts storage.modifier.ts",
+        "source.ts meta.class.ts storage.type.class.ts",
+        "source.ts meta.interface.ts storage.type.interface.ts"
       ],
       "settings": {
         "foreground": "#569CD6",
@@ -342,7 +352,6 @@
     {
       "name": "Keyword, Storage",
       "scope": [
-        "meta.block.ts",
         "source.ts meta.interface.ts meta.field.declaration.ts meta.definition.property.ts variable.object.property.ts",
         "source.ts variable.other.property.ts",
         "source.ts meta.arrow.ts",
@@ -368,8 +377,7 @@
     {
       "name": "Entity HTML Tags",
       "scope": [
-        "entity.name.tag.html",
-        // "html-template.ng control-flow.ng variable.other.property.ts"
+        "entity.name.tag.html"
       ],
       "settings": {
         "foreground": "#F92672",
@@ -391,7 +399,6 @@
     {
       "name": "Operator, Misc",
       "scope": [
-        "keyword.control",
         "constant.other.color",
         "punctuation",
         "meta.brace.square",
@@ -413,8 +420,7 @@
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#fff",
-        "fontStyle": ""
+        "foreground": "#c2c2c2"
       }
     },
     {
@@ -441,8 +447,6 @@
     {
       "name": "Function, Special Method",
       "scope": [
-        "entity.name.function",
-        "meta.function-call",
         "variable.function",
         "support.function",
         "keyword.other.special-method"
@@ -454,7 +458,9 @@
     {
       "name": "Function, Special Method",
       "scope": [
-        "entity.name.function.preprocessor"
+        "entity.name.function.preprocessor",
+        "source.cs meta.preprocessor.cs keyword.preprocessor",
+        "source.cs meta.preprocessor.cs punctuation.separator.hash.cs"
       ],
       "settings": {
         "foreground": "#608B4E",
@@ -484,7 +490,10 @@
       "name": "Other Variable, String Link",
       "scope": [
         "support.other.variable",
-        "string.other.link"
+        "string.other.link",
+        "html-template.ng meta.element.structure.html meta.ng-binding.event.html entity.name.function.ts",
+        "html-template.ng meta.element.structure.html entity.name.function.ts",
+        "html-template.ng meta.ng-binding.event.html entity.name.function.ts"
       ],
       "settings": {
         "foreground": "#ffed91",
@@ -499,7 +508,7 @@
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
-        "keyword.other"
+        // "keyword.other"
       ],
       "settings": {
         "foreground": "#29D398"
@@ -579,7 +588,7 @@
         "string",
         "constant.other.symbol",
         "constant.other.key",
-        "entity.other.inherited-class",
+        // "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
@@ -645,7 +654,12 @@
     {
       "name": "variables",
       "scope": [
-        "keyword.cs"
+        "source.cs storage.modifier",
+        "source.cs keyword.operator",
+        "source.cs keyword.type",
+        "source.cs storage.type",
+        "source.cs keyword.other.directive.using.cs",
+        "source.cs keyword.control.context.using.cs"
       ],
       "settings": {
         "foreground": "#569CD6"
@@ -664,7 +678,10 @@
       "name": "Class, Support",
       "scope": [
         "entity.name.type.interface",
-        "support.class"
+        "source.ts meta.class.ts entity.other.inherited-class.ts",
+        "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts"
       ],
       "settings": {
         "foreground": "#4EC9B0"
@@ -816,7 +833,7 @@
         "variable.function",
         "html-template.ng expression.ng",
         "html-template.ng meta.element.custom.html",
-        "html-template.ng variable.other.object.ts",
+        "html-template.ng variable.other.object.ts"
       ],
       "settings": {
         "foreground": "#FFED91"
@@ -858,7 +875,6 @@
     {
       "name": "Object Properties",
       "scope": [
-        "source.ts meta.function-call.ts",
         "constant.character.other",
         "html-template.ng meta.element.custom.html variable.other.property.ts",
         "html-template.ng variable.other.property.ts",
@@ -873,8 +889,7 @@
       "scope": [
         "support.type.property-name",
         "meta.object-literal.key",
-        "meta.object.member.ts",
-        "meta.class.ts"
+        "meta.object.member.ts"
       ],
       "settings": {
         "foreground": "#8AD7FF"
@@ -949,8 +964,7 @@
         "support.type.builtin.ts"
       ],
       "settings": {
-        "foreground": "#4EC9B0",
-        "fontStyle": "bold"
+        "foreground": "#4EC9B0"
       }
     },
     {

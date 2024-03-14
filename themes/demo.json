@@ -3,7 +3,7 @@
     "type": "dark",
     "semanticHighlighting": true,
     "colors": {
-    "----------Editor---------": "-----------------------",
+        "----------Editor---------": "-----------------------",
         "editor.background": "#1c1c1d",
         "editor.foreground": "#fff",
         "editor.selectionBackground": "#2E303EB3",
@@ -45,8 +45,7 @@
         "titleBar.inactiveBackground": "#262626",
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveForeground": "#999999",
-
-    "----------Activity bar---------": "-----------------------",
+        "----------Activity bar---------": "-----------------------",
         "activityBar.background": "#333333",
         "activityBar.foreground": "#fff",
         "activityBar.activeBorder": "#EE64AC",
@@ -55,28 +54,24 @@
         "activityBarBadge.background": "#0670e0",
         "activityBarBadge.foreground": "#fff",
         "activityBar.dropBackground": "#6C6F9380",
-
-    "----------Sidebar---------": "-----------------------",
+        "----------Sidebar---------": "-----------------------",
         "sideBar.background": "#252526",
         "sideBar.foreground": "#d4e1e1",
-        "sideBarTitle.foreground": "#fff", 
+        "sideBarTitle.foreground": "#fff",
         "sideBar.dropBackground": "#d4e1e1",
         "sideBarSectionHeader.background": "#2e2e2e",
         "sideBarSectionHeader.foreground": "#D5D8DAB3",
-
-    "----------Tabs---------": "-----------------------",
+        "----------Tabs---------": "-----------------------",
         "editorGroupHeader.tabsBackground": "#1c1c1d",
         "tab.inactiveBackground": "#242424",
         "tab.border": "#1C1C1C",
         "tab.activeBorder": "#0670e0",
         "tab.hoverBackground": "#2e2e2e",
         "tab.hoverForeground": "#fff",
-
         "tab.activeBorderTop-": "#",
         "tab.activeForeground-": "#",
         "tab.inactiveForeground-": "#",
-
-    "----------Status bar---------": "-----------------------",
+        "----------Status bar---------": "-----------------------",
         "statusBar.background": "#292929",
         "statusBar.noFolderBackground": "#1C1C1C",
         "statusBar.foreground": "#fff",
@@ -85,9 +80,8 @@
         "statusBarItem.hoverBackground": "#2E303E",
         "statusBarItem.prominentBackground": "#2E303E",
         "statusBarItem.prominentHoverBackground": "#6C6F93",
-
-    "----------Integrated Terminal---------": "-----------------------",
-        "terminal.background": "#1c1c1d",   
+        "----------Integrated Terminal---------": "-----------------------",
+        "terminal.background": "#1c1c1d",
         "terminal.foreground": "#D5D8DA",
         "terminal.selectionBackground": "#6C6F934D",
         "terminalCursor.background": "#D5D8DA",
@@ -104,34 +98,27 @@
         "terminal.ansiMagenta": "#EE64AC",
         "terminal.ansiRed": "#E95678",
         "terminal.ansiYellow": "#FAB795",
-
-    "----------Menu---------": "-----------------------",
+        "----------Menu---------": "-----------------------",
         // "menu.background": "#1f172b",
         // "menu.foreground": "#c6abde",
         // "menu.border": "#c6abde",
         // "menu.selectionBackground": "#fefefe40",
         // "menu.separatorBackground": "#fefefe32",
         // "window.activeBorder": "#9292e424",
-
         "editor.hoverHighlightBackground": "#6C6F934D",
         "editorIndentGuide.background": "#2E303E80",
         "editorIndentGuide.activeBackground": "#8b6c6c",
-
-    "----------Hover Widget---------": "-----------------------",
+        "----------Hover Widget---------": "-----------------------",
         // "editorHoverWidget.background": "#",
         // "editorHoverWidget.border": "#",
         // "editorHoverWidget.foreground": "#",
         // "editorGutter.addedBackground": "#",
         // "editorGutter.foldingControlForeground": "#",
-
         "editorGutter.modifiedBackground": "#21BFC2B3",
         "editorGutter.deletedBackground": "#F43E5CB3",
-
-    "----------Misc---------": "-----------------------",
+        "----------Misc---------": "-----------------------",
         "scrollbar.shadow": "#16161C",
         "sash.hoverBorder": "#EE64AC",
-
-
         "focusBorder": "#43474b7e",
         "foreground": "#D5D8DA",
         "widget.shadow": "#16161C",
@@ -225,6 +212,7 @@
                 "",
                 "variable.other.object.ts",
                 "constant.character.other",
+                // "variable.other.property.ts",
                 "html-template.ng meta.element.custom.html variable.other.property.ts",
                 "html-template.ng variable.other.property.ts",
                 "constant.numeric.decimal.ts",
@@ -399,8 +387,9 @@
         {
             "name": "Variable names(Tên biến, model)",
             "scope": [
-                "variable.other.object.cs"
-
+                "variable.other.object.cs",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts"
+                // "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.object.property.ts"
             ],
             "settings": {
                 "foreground": "#4EC9B0"
@@ -550,7 +539,8 @@
             "scope": [
                 "support.type.property-name",
                 "meta.object-literal.key",
-                "meta.class.ts"
+                "meta.class.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts"
             ],
             "settings": {
                 "foreground": "#9CDCFE"

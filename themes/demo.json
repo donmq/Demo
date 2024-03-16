@@ -4,24 +4,29 @@
     "semanticHighlighting": true,
     "colors": {
         "----------Editor---------": "-----------------------",
-        "editor.background": "#1f1f1f",
+        "editor.background": "#222222",
+        // "màu chữ trong git graph"
         "editor.foreground": "#fff",
         "editor.selectionBackground": "#2E303EB3",
-        "editorCursor.foreground": "#E95378",
-        "editorLineNumber.foreground": "#797979",
+        // "Màu trỏ chuột"
+        "editorCursor.foreground": "#f30f4c",
         "editor.selectionHighlightBackground": "#6C6F934D",
+        // dòng được bôi đen
         "editor.wordHighlightBackground": "#6C6F9380",
         "editor.wordHighlightStrongBackground": "#6C6F9380",
         "editor.findMatchBackground": "#6C6F9380",
         "editor.findMatchHighlightBackground": "#6C6F934D",
         "editor.findRangeHighlightBackground": "#6C6F931A",
+        // dòng được focus
         "editor.lineHighlightBackground": "#43474b46",
-        "editor.foldBackground": "#ff0101",
+        "editor.foldBackground": "#43474bE6",
         "editor.rangeHighlightBackground": "#2E303E80",
         "editorCursor.background": "#1C1C1C",
-        "editorGroup.border": "2px solid #ef1a28",
+        "editorGroup.border": "#797979",
         "editorGroup.dropBackground": "#6C6F934D",
+        // Màu số dòng đang focus
         "editorLineNumber.activeForeground": "#D5D8DA80",
+        "editorLineNumber.foreground": "#797979",
         "editorRuler.foreground": "#6C6F934D",
         "editorCodeLens.foreground": "#6C6F9380",
         "editorBracketMatch.background": "#6C6F9380",
@@ -36,17 +41,19 @@
         "editorOverviewRuler.bracketMatchForeground": "#D5D8DA80",
         "editorError.foreground": "#ff3300",
         "editorWarning.foreground": "#27D797B3",
+        // các dòng được thay đổi so sánh với github
         "diffEditor.insertedTextBackground": "#09F7A01A",
         "diffEditor.removedTextBackground": "#F43E5C1A",
+        // màu thông tin khi focus code
         "editorWidget.background": "#333333",
         "editorWidget.border": "#333333",
         "editorSuggestWidget.highlightForeground": "#0670e0",
-        "titleBar.activeBackground": "#2e2e2e",
-        "titleBar.inactiveBackground": "#181818",
+        "titleBar.activeBackground": "#1c1c1d",
+        "titleBar.inactiveBackground": "#1c1c1d",
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveForeground": "#999999",
         "----------Activity bar---------": "-----------------------",
-        "activityBar.background": "#181818",
+        "activityBar.background": "#1c1c1d",
         "activityBar.foreground": "#fff",
         "activityBar.activeBorder": "#EE64AC",
         "activityBar.activeForeground": "#fff",
@@ -54,24 +61,25 @@
         "activityBarBadge.background": "#0670e0",
         "activityBarBadge.foreground": "#fff",
         "activityBar.dropBackground": "#6C6F9380",
-        "----------Sidebar---------": "-----------------------",
-        "sideBar.background": "#252526",
+        "----------Thanh Sidebar---------": "-----------------------",
+        "sideBar.background": "#1c1c1d",
         "sideBar.foreground": "#d4e1e1",
         "sideBarTitle.foreground": "#fff",
         "sideBar.dropBackground": "#d4e1e1",
         "sideBarSectionHeader.background": "#2e2e2e",
         "sideBarSectionHeader.foreground": "#D5D8DAB3",
-        "----------Tabs---------": "-----------------------",
+        "----------Thanh tabs---------": "-----------------------",
+        // Thanh công cụ bên góc trên phải của VSC
         "editorGroupHeader.tabsBackground": "#1c1c1d",
         "tab.inactiveBackground": "#242424",
         "tab.border": "#1C1C1C",
         "tab.activeBorder": "#0670e0",
         "tab.hoverBackground": "#2e2e2e",
         "tab.hoverForeground": "#fff",
-        "tab.activeBorderTop-": "#",
-        "tab.activeForeground-": "#",
+        "tab.activeBorderTop": "#383838",
+        "tab.activeForeground": "#fff",
         "tab.inactiveForeground-": "#",
-        "----------Status bar---------": "-----------------------",
+        "----------Thanh trạng thái---------": "-----------------------",
         "statusBar.background": "#292929",
         "statusBar.noFolderBackground": "#1C1C1C",
         "statusBar.foreground": "#fff",
@@ -98,6 +106,9 @@
         "terminal.ansiMagenta": "#EE64AC",
         "terminal.ansiRed": "#E95678",
         "terminal.ansiYellow": "#FAB795",
+        // title terminal
+        "panel.background": "#1c1c1d",
+        // "panel.border": "#ffg",
         "----------Menu---------": "-----------------------",
         // "menu.background": "#1f172b",
         // "menu.foreground": "#c6abde",
@@ -106,8 +117,10 @@
         // "menu.separatorBackground": "#fefefe32",
         // "window.activeBorder": "#9292e424",
         "editor.hoverHighlightBackground": "#6C6F934D",
-        "editorIndentGuide.background": "#2E303E80",
-        "editorIndentGuide.activeBackground": "#8b6c6c",
+        // các đường line chạy dọc,
+        "editorIndentGuide.background": "#3f3a3a",
+        "editorIndentGuide.activeBackground": "#e97555",
+        "editorWhitespace.foreground": "#3b3a32",
         "----------Hover Widget---------": "-----------------------",
         // "editorHoverWidget.background": "#",
         // "editorHoverWidget.border": "#",
@@ -120,6 +133,7 @@
         "scrollbar.shadow": "#16161C",
         "sash.hoverBorder": "#EE64AC",
         "focusBorder": "#43474b7e",
+        // "màu chữ trên các thanh"
         "foreground": "#D5D8DA",
         "widget.shadow": "#16161C",
         "selection.background": "#6C6F9380",
@@ -130,21 +144,28 @@
         "dropdown.background": "#353535",
         "dropdown.listBackground": "#2E303E",
         "input.background": "#424242",
+        // màu chữ ô input
+        "input.foreground": "#818CA6",
+        "input.border": "#1A1F2E",
+        "input.placeholderForeground": "#3D4D67",
         "inputOption.activeBorder": "#E9436D80",
         "inputValidation.errorBackground": "#ee582f",
         "inputValidation.errorBorder": "#ee582f",
+        // thanh cuộn
         "scrollbarSlider.activeBackground": "#6C6F9380",
         "scrollbarSlider.background": "#6C6F931A",
         "scrollbarSlider.hoverBackground": "#6C6F934D",
         "badge.foreground": "#D5D8DA",
         "badge.background": "#2E303E",
         "progressBar.background": "#0670e0",
-        "list.activeSelectionBackground": "#0664a781",
+        // màu bên thanh chọn file được focus
+        "list.activeSelectionBackground": "#303B50",
         "list.activeSelectionForeground": "#ffffff",
         "list.dropBackground": "#6C6F9380",
         "list.focusBackground": "#43474b",
         "list.focusForeground": "#D5D8DA",
         "list.highlightForeground": "#0670e0",
+        // thể hiện các dòng đc focus trong extension
         "list.hoverBackground": "#43474b",
         "list.hoverForeground": "#D5D8DA",
         "list.inactiveSelectionBackground": "#43474b7e",
@@ -165,6 +186,7 @@
         "extensionButton.prominentHoverBackground": "#E9436D",
         "pickerGroup.foreground": "#0670e0",
         "walkThrough.embeddedEditorBackground": "#232530",
+        // "màu chữ"
         "gitDecoration.addedResourceForeground": "#27D797B3",
         "gitDecoration.modifiedResourceForeground": "#ecd484",
         "gitDecoration.deletedResourceForeground": "#F43E5C",
@@ -174,7 +196,23 @@
     },
     "tokenColors": [
         {
-            "HTML": "HTML"
+            "-------------HTML----------": "-----HTML-------"
+        },
+        {
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#6A9955"
+            }
+        },
+        {
+            "scope": [
+                "html-template.ng"
+            ],
+            "settings": {
+                "foreground": "#cccccc"
+            }
         },
         {
             "scope": [
@@ -186,22 +224,21 @@
         },
         {
             "scope": [
-                "text.html.derivative",
-                ""
-            ],
-            "settings": {
-                "foreground": "#b5b5b5"
-            }
-        },
-        {
-            "name": "Tag attributes",
-            "scope": [
-                "entity.other.attribute-name",
-                "meta.ng-binding.two-way.html",
-                "meta.element.custom.html",
-                "meta.ng-binding.template.sugar.html",
-                "meta.ng-binding.property.html",
-                "meta.attribute string"
+                "html-template.ng meta.element.inline.html meta.attribute.class.html entity.other.attribute-name.html html-template.ng.attributes.generic",
+                "html-template.ng meta.attribute.class.html entity.other.attribute-name.html html-template.ng.attributes.generic",
+                "html-template.ng meta.ng-binding.two-way.html entity.other.attribute-name.html entity.other.ng-binding-name.property.html",
+                "html-template.ng meta.element.custom.html meta.ng-binding.property.html entity.other.attribute-name.html entity.other.ng-binding-name.property.html entity.other.ng-binding-name.binding.html",
+                "html-template.ng meta.element.structure.html meta.attribute.for.html entity.other.attribute-name.html html-template.ng.attributes.generic",
+                "html-template.ng meta.attribute entity.other.attribute-name.html html-template.ng.attributes.generic",
+                "html-template.ng meta.element.custom.html meta.ng-binding.template.sugar.html entity.other.attribute-name.html html-template.ng.attributes",
+                "html-template.ng meta.element.custom.html meta.ng-binding.event.html entity.other.attribute-name.html",
+                "html-template.ng meta.ng-binding.template.sugar.html entity.other.attribute-name.html html-template.ng.attributes",
+                "html-template.ng meta.element.structure.html meta.ng-binding.event.html entity.other.attribute-name.html",
+                "html-template.ng meta.ng-binding.template.variable.boolean.html entity.other.attribute-name.html html-template.ng.attributes",
+                "html-template.ng meta.element.structure.html meta.ng-binding.property.html entity.other.attribute-name.html",
+                "html-template.ng meta.ng-binding.event.html entity.other.attribute-name.html",
+                "html-template.ng meta.ng-binding.property.html entity.other.attribute-name.html entity.other.ng-binding-name.property.html",
+                "html-template.ng meta.attribute.event-handler entity.other.attribute-name.html html-template.ng.attributes.events"
             ],
             "settings": {
                 "foreground": "#83df55"
@@ -209,419 +246,153 @@
         },
         {
             "scope": [
-                "",
-                "variable.other.object.ts",
-                "constant.character.other",
-                // "variable.other.property.ts",
-                "html-template.ng meta.element.custom.html variable.other.property.ts",
-                "html-template.ng variable.other.property.ts",
-                "constant.numeric.decimal.ts",
-                "storage.type.ts",
-                "keyword.operator.expression.of.ts"
+                "html-template.ng string.quoted.double.html",
+                "html-template.ng meta.attribute.class.html string.quoted.double.html",
+                "html-template.ng expression.ng html-template.ng.interpolation.expression expression.ng"
             ],
             "settings": {
-                "foreground": "#ffed91"
+                "foreground": "#fcb08ae6"
             }
         },
         {
             "scope": [
-                "meta.attribute.class.html string",
-                "meta.attribute.id.html string",
-                "meta.attribute.type.html string",
-                "meta.attribute.style.html string",
-                "meta.attribute.name.html string",
-                "meta.attribute.colspan.html string",
-                "meta.attribute.value.html string",
-                "meta.attribute.autocomplete.html string",
-                "meta.attribute.placeholder.html string",
-                "meta.attribute.maxlength.html string",
-                "meta.attribute.minlength.html string",
-                "meta.attribute.checked.html string",
-                "meta.attribute.for.html string",
-                "meta.attribute.pattern.html string",
-                "meta.attribute.disabled.html string",
-                "meta.attribute.tabindex.html string",
-                "meta.attribute.multiple.html string",
-                "meta.attribute.mask.html string",
-                "meta.attribute.mask string",
-                "meta.attribute.src.html string",
-                "meta.attribute.alt.html string",
-                "meta.attribute.width.html string",
-                "meta.element.custom.html string"
+                "html-template.ng punctuation.definition.tag.begin.html",
+                "html-template.ng punctuation.definition.tag.end.html"
             ],
             "settings": {
-                "foreground": "#CE9178"
-            }
-        },
-        {
-            "name": "Tags(Thẻ HTML)",
-            "scope": "entity.name.tag",
-            "settings": {
-                "fontStyle": "normal"
-            }
-        },
-        {
-            "TS_C": "TS_C"
-        },
-        {
-            "scope": [
-                "entity.name.function.member",
-                "entity.name.function"
-            ],
-            "settings": {
-                "foreground": "#ffed91"
+                "foreground": "#797979",
+                "fontStyle": "bold"
             }
         },
         {
             "scope": [
-                "keyword.control.flow.ts",
-                "meta.block.ts",
-                "meta.arrow.ts",
-                "meta.class.ts",
-                "keyword.control",
-                "keyword.other.await.cs",
-                "source.ts"
-            ],
-            "settings": {
-                "foreground": "#C74DED"
-            }
-        },
-        {
-            "scope": [],
-            "settings": {
-                "foreground": "#83d4ff"
-            }
-        },
-        {
-            "name": "Comments(",
-            "scope": "comment",
-            "settings": {
-                "foreground": "#608B4E",
-                "fontStyle": "normal"
-            }
-        },
-        {
-            "name": "Str c# (chuỗi)",
-            "scope": [
-                "punctuation.curlybrace.close.cs",
-                "string.quoted.double.cs"
-            ],
-            "settings": {
-                "foreground": "#CE9178",
-                "fontStyle": "normal"
-            }
-        },
-        {
-            "name": "Constants (null, false, true)",
-            "scope": [
-                "constant"
+                "html-template.ng meta.element.custom.html constant.language.boolean.false.ts",
+                "html-template.ng meta.element.custom.html constant.language.boolean.true.ts",
+                "html-template.ng keyword.control",
+                "html-template.ng storage.type.ts",
+                "html-template.ng keyword.operator.expression.of.ts",
+                "html-template.ng constant.language.boolean",
+                "html-template.ng constant.character.entity.named.nbsp.html",
+                "html-template.ng keyword.other.important.scss",
+                "html-template.ng meta.ng-binding.event.html variable.other.property.ts"
             ],
             "settings": {
                 "foreground": "#569CD6"
             }
         },
         {
-            "name": "Named entities  (Task<List<BasicDataDTO>>)",
-            "scope": "entity.name",
-            "settings": {
-                "foreground": "#4EC9B0"
-            }
-        },
-        {
-            "Khongbiet": "",
-            "name": "Escape characters",
-            "scope": "constant.character.escape",
-            "settings": {
-                "foreground": ""
-            }
-        },
-        {
-            "name": "Function names",
-            "scope": "entity.name.function",
+            "scope": [
+                "html-template.ng variable.other.property.ts",
+                "html-template.ng variable.other.object.ts",
+                "html-template.ng constant.numeric.decimal.ts",
+                "html-template.ng entity.name.function.ts",
+                "html-template.ng meta.element.inline.html constant.character.other",
+                "html-template.ng meta.element.structure.html expression.ng html-template.ng.interpolation.expression constant.character.other",
+                "html-template.ng string.quoted.single.ts",
+                "html-template.ng meta.element.custom.html meta.ng-binding.event.html variable.other.property.ts"
+            ],
             "settings": {
                 "foreground": "#ffed91"
             }
         },
         {
-            "Khongbiet": "",
-            "name": "Inherited classes",
-            "scope": "entity.other.inherited-class",
-            "settings": {
-                "foreground": "#4EC9B0"
-            }
-        },
-        {
-            "Khongbiet": "",
-            "name": "CSS ID selectors",
             "scope": [
-                "entity.other.attribute-name.id",
-                "entity.other.attribute-name.class",
-                "entity.other.attribute-name.id",
-                "entity.name.tag.css"
+                "html-template.ng meta.property-list.scss meta.embeded.line.css meta.property-name.scss support.type.property-name.css",
+                "html-template.ng expression.ng html-template.ng.interpolation.expression entity.name.function.pipe.ng"
             ],
             "settings": {
-                "foreground": "#D7BA7D"
+                "foreground": "#8AD7FF"
             }
         },
         {
-            "Khongbiet": "",
-            "name": "Pseudo CSS",
             "scope": [
-                "entity.other.attribute-name.pseudo-element",
-                "entity.other.attribute-name.pseudo-class"
-            ],
-            "settings": {
-                "foreground": "#CE9178"
-            }
-        },
-        {
-            "name": "Variable names(Tên biến, model)",
-            "scope": [
-                "variable.other.object.property.cs",
-                "variable.other.readwrite.cs"
-            ],
-            "settings": {
-                "foreground": "#8ad7ff"
-            }
-        },
-        {
-            "name": "Variable names(Tên biến, model)",
-            "scope": [
-                "variable.other.object.cs",
-                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts"
-                // "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.object.property.ts"
-            ],
-            "settings": {
-                "foreground": "#4EC9B0"
-            }
-        },
-        {
-            "name": "Keywords (string, var)",
-            "scope": [
-                "keyword",
-                "entity.name.tag.custom.scss",
-                "entity.name.tag.reference.scss"
-            ],
-            "settings": {
-                "foreground": "#569CD6",
-                "fontStyle": "normal"
-            }
-        },
-        {
-            "name": "Operators (Dấu =)",
-            "scope": "keyword.operator",
-            "settings": {
-                "foreground": "#BBBBBB"
-            }
-        },
-        {
-            "name": "Special operators (Dấu !)",
-            "scope": [
-                "keyword.operator.new",
-                "keyword.operator.expression",
-                "keyword.operator.logical",
-                "keyword.operator.delete"
-            ],
-            "settings": {
-                "foreground": "#D4D4D4"
-            }
-        },
-        {
-            "name": "Units(px CSS)",
-            "scope": [
-                "constant.numeric.css",
-                "keyword.other.unit"
+                "html-template.ng meta.property-list.scss meta.property-value.scss constant.numeric.css",
+                "html-template.ng meta.property-list.scss meta.property-value.scss support.constant.color.w3c-standard-color-name.css",
+                "html-template.ng meta.property-list.scss meta.property-value.scss support.constant.property-value.css"
             ],
             "settings": {
                 "foreground": "#B5CEA8"
             }
         },
         {
-            "Khongbiet": "",
-            "name": "Markup quotes",
-            "scope": "markup.quote",
-            "settings": {
-                "foreground": ""
-            }
+            "-------------TypeScript----------": "------TypeScript-------"
         },
         {
-            "Khongbiet": "",
-            "name": "Markup headings",
             "scope": [
-                "markup.heading"
+                "source.ts"
             ],
             "settings": {
-                "foreground": "#E95678E6"
+                "foreground": "#8AD7FF"
             }
         },
         {
-            "Khongbiet": "",
-            "name": "Markup bold",
-            "scope": "markup.bold",
-            "settings": {
-                "foreground": "#569CD6",
-                "fontStyle": "normal"
-            }
-        },
-        {
-            "Khongbiet": "",
-            "name": "Markup italics",
-            "scope": "markup.italic",
-            "settings": {
-                "foreground": "#25B0BCE6"
-            }
-        },
-        {
-            "Khongbiet": "",
-            "name": "Markup code",
             "scope": [
-                "markup.inline.raw",
-                "markup.fenced_code.block"
+                "source.ts meta keyword.control"
             ],
             "settings": {
-                "foreground": "#F09483E6"
+                "foreground": "#C74DED"
             }
         },
         {
-            "Khongbiet": "",
-            "name": "Markup links",
-            "scope": "markup.underline.link",
-            "settings": {
-                "foreground": "#FAB795E6"
-            }
-        },
-        {
-            "name": "Storage keywords (public async)",
-            "scope": "storage",
-            "settings": {
-                "foreground": "#569CD6",
-                "fontStyle": "normal"
-            }
-        },
-        {
-            "Khongbiet": "",
-            "name": "Regex",
-            "scope": "string.regexp",
-            "settings": {
-                "foreground": "#F09483E6"
-            }
-        },
-        {
-            "name": "Markup link descriptions",
-            "scope": "string.other.link",
-            "settings": {
-                "foreground": "#F09483E6"
-            }
-        },
-        {
-            "name": "Provided (support) values (tên biến TS)",
-            "scope": "support",
+            "scope": [
+                "source.ts meta.decorator.ts meta.function-call.ts entity.name.function.ts",
+                "source.ts meta.class.ts entity.name.type.class.ts",
+                "source.ts meta.class.ts entity.other.inherited-class.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts meta.function-call.ts entity.name.function.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts cast.expr.ts entity.name.type.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts variable.other.readwrite.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts variable.other.object.property.ts"
+            ],
             "settings": {
                 "foreground": "#4EC9B0"
             }
         },
         {
-            "name": "Provided functions",
-            "scope": "support.function",
-            "settings": {
-                "foreground": "#25B0BCE6"
-            }
-        },
-        {
-            "name": "Provieded variables (length)",
-            "scope": "support.variable",
-            "settings": {
-                "foreground": "#4EC9B0"
-            }
-        },
-        {
-            "name": "Object/JSON property names",
             "scope": [
-                "support.type.property-name",
-                "meta.object-literal.key",
-                "meta.class.ts",
-                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts"
+                "source.ts meta.import.ts meta.block.ts variable.other.readwrite.alias.ts"
             ],
             "settings": {
-                "foreground": "#9CDCFE"
+                "foreground": "#8AD7FF"
             }
         },
         {
-            "name": "CSS property names(name css)",
-            "scope": "support.type.property-name.css",
-            "settings": {
-                "foreground": "#9CDCFE"
-            }
-        },
-        {
-            "name": "Language variables(this)",
             "scope": [
-                "variable.language"
+                "source.ts meta.import.ts string.quoted.single.ts",
+                "source.ts meta.decorator.ts meta.objectliteral.ts meta.object.member.ts string.quoted.single.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts meta.objectliteral.ts meta.object.member.ts string.quoted.single.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts string.quoted.single.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.array.literal.ts string.quoted.single.ts"
             ],
             "settings": {
-                "foreground": "#569CD6",
-                "fontStyle": "normal"
+                "foreground": "#fcb08ae6"
             }
         },
         {
-            "name": "Parameters(Biến param)",
-            "scope": "variable.parameter",
-            "settings": {
-                "fontStyle": "normal"
-            }
-        },
-        {
-            "name": "Embedded template punctuation",
-            "scope": "string.template meta.embedded",
-            "settings": {
-                "foreground": "#BBBBBB"
-            }
-        },
-        {
-            "name": "Tag brackets(Đóng mở ngoặc thẻ html)",
-            "scope": "punctuation.definition.tag",
-            "settings": {
-                "foreground": "#B5B5B5",
-                "fontStyle": "normal"
-            }
-        },
-        {
-            "name": "Key/value separators(dấu phẩy)",
-            "scope": "punctuation.separator",
-            "settings": {
-                "foreground": "#BBBBBB"
-            }
-        },
-        {
-            "name": "Template expressions",
-            "scope": "punctuation.definition.template-expression",
+            "scope": [
+                "source.ts meta.class.ts storage.type",
+                "source.ts meta.class.ts storage.modifier",
+                "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts keyword.operator.new.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts meta.objectliteral.ts meta.object.member.ts constant.language.boolean",
+                "source.ts meta.class.ts meta.field.declaration.ts constant.language.boolean",
+                "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts keyword.operator.expression.typeof.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts variable.language",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.language"
+            ],
             "settings": {
                 "foreground": "#569CD6"
             }
         },
         {
-            "name": "Embedded section punctuation",
-            "scope": "punctuation.section.embedded",
-            "settings": {
-                "foreground": "#B877DBE6"
-            }
-        },
-        {
-            "name": "String TS + CSS",
             "scope": [
-                "string.quoted.single.ts",
-                "string.quoted.double.ts",
-                "string.template.ts",
-                "string.quoted.double.json",
-                "string.quoted.single.js",
-                "markup.inline.raw.string.markdown",
-                "string.quoted.double.scss",
-                "constant.other.color.rgb-value.hex.css",
-                "support.constant.property-value.css",
-                ""
+                "source.ts meta.class.ts meta.method.declaration.ts storage.type.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts entity.name.function.ts"
             ],
             "settings": {
-                "foreground": "#CE9178"
+                "foreground": "#ffed91"
             }
         }
     ]

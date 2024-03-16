@@ -1,9 +1,9 @@
 .class {
-  color: #1f1f1f;     color: #2E303EB3;
+  color: #222222;     color: #2E303EB3;
   color: #797979;     color: #6C6F934D;
   color: #6C6F9380;   color: #09F7A01A;
   color: #6C6F931A;   color: #43474b46;
-  color: #2E303E80;   color: #1C1C1C;
+  color: #4d3535;   color: #1C1C1C;
   color: #D5D8DA80;   color: #6C6F9300;
   color: #2E303EB3;   color: #6C6F93;
   color: #b5b5b5;     color: #6dbb46;
@@ -21,7 +21,7 @@
   color: #FAB795E6;   color: #fcb08ae6;
   color: #FAB38E;     color: #FAB795;
   color: #e97555;     color: #F09483E6;
-  color: #c2c2c2;     color: #F43E5C80;
+  color: #3f3a3a;     color: #F43E5C80;
   color: #EE64AC;     color: #E95378;
   color: #E95678E6;   color: #ee582f;
   color: #F43E5C;     color: #ff3300;
@@ -37,16 +37,16 @@
   color: #2E303E;     color: #26BBD9;
   color: #3FC4DE;     color: #6BE4E6;
   color: #3FDAA4;     color: #F075B5;
-  color: #fff;        color: #59E1E3;
+  color: #dddddd;        color: #59E1E3;
   color: #29D398;     color: #E95678;
-  color: #8b6c6c;     color: #21BFC2B3;
+  color: #800000;     color: #21BFC2B3;
   color: #F43E5CB3;   color: #16161C;
   color: #43474b7e;   color: #D5D8DA;
   color: #E9436D;     color: #353535;
   color: #424242;     color: #E9436D80;
   color: #0664a781;   color: #43474b;
   color: #1A1C23;     color: #232530;
-  color: #D5D8DA4D;   color: #f0bb6b
+  color: #D5D8DA4D;   color: #ff0000
 }
 
 #id {

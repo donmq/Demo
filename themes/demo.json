@@ -257,7 +257,8 @@
                 "html-template.ng meta.element.structure.html meta.ng-binding.property.html entity.other.attribute-name.html",
                 "html-template.ng meta.ng-binding.event.html entity.other.attribute-name.html",
                 "html-template.ng meta.ng-binding.property.html entity.other.attribute-name.html entity.other.ng-binding-name.property.html",
-                "html-template.ng meta.attribute.event-handler entity.other.attribute-name.html html-template.ng.attributes.events"
+                "html-template.ng meta.attribute.event-handler entity.other.attribute-name.html html-template.ng.attributes.events",
+                "html-template.ng meta.element.custom.html"
             ],
             "settings": {
                 "foreground": "#83df55"
@@ -265,9 +266,10 @@
         },
         {
             "scope": [
-                "html-template.ng string.quoted.double.html",
-                "html-template.ng meta.attribute.class.html string.quoted.double.html",
-                "html-template.ng expression.ng html-template.ng.interpolation.expression expression.ng punctuation.definition.block.ts html-template.ng.interpolation"
+                "html-template.ng string.quoted",
+                "html-template.ng meta.attribute.class.html string.quoted",
+                "html-template.ng expression.ng html-template.ng.interpolation.expression expression.ng punctuation.definition.block.ts html-template.ng.interpolation",
+                "html-template.ng expression.ng html-template.ng.interpolation.expression string.quoted"
             ],
             "settings": {
                 "foreground": "#fcb08ae6"
@@ -307,7 +309,6 @@
                 "html-template.ng entity.name.function.ts",
                 "html-template.ng meta.element.inline.html constant.character.other",
                 "html-template.ng meta.element.structure.html expression.ng html-template.ng.interpolation.expression constant.character.other",
-                "html-template.ng string.quoted.single.ts",
                 "html-template.ng meta.element.custom.html meta.ng-binding.event.html variable.other.property.ts"
             ],
             "settings": {
@@ -366,7 +367,7 @@
             "scope": [
                 "source.css.scss meta.property-list.scss meta.property-value.scss support.constant.property-value.css",
                 "source.css.scss meta.property-list.scss meta.property-value.scss constant.other.color.rgb-value.hex.css",
-                "source.css.scss meta.property-list.scss meta.property-value.scss string.quoted.double.scss",
+                "source.css.scss meta.property-list.scss meta.property-value.scss string.quoted",
                 "source.css.scss meta.at-rule.import.scss string.quoted"
             ],
             "settings": {
@@ -408,7 +409,8 @@
             "scope": [
                 "source.ts",
                 "source.ts meta.class.ts meta.field.declaration.ts variable.other.constant.property.ts",
-                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.arrow.ts meta.var.expr.ts meta.embedded.line.ts"
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.arrow.ts meta.var.expr.ts meta.embedded.line.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts string.template.ts meta.template.expression.ts meta.embedded.line.ts variable.other.property.ts"
             ],
             "settings": {
                 "foreground": "#8AD7FF"
@@ -431,7 +433,6 @@
                 "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
                 "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts meta.function-call.ts entity.name.function.ts",
                 "source.ts meta.class.ts meta.field.declaration.ts cast.expr.ts entity.name.type.ts",
-                // "source.ts variable.other.readwrite.ts",
                 "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
                 "source.ts entity.name.type.class",
                 "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.arrow.ts meta.block.ts cast.expr.ts entity.name.type.ts",
@@ -465,21 +466,27 @@
         },
         {
             "scope": [
-                "source.ts meta.import.ts string.quoted.single.ts",
-                "source.ts meta.decorator.ts meta.objectliteral.ts meta.object.member.ts string.quoted.single.ts",
-                "source.ts meta.class.ts meta.field.declaration.ts meta.objectliteral.ts meta.object.member.ts string.quoted.single.ts",
-                "source.ts meta.class.ts meta.field.declaration.ts string.quoted.single.ts",
-                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.array.literal.ts string.quoted.single.ts",
-                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.block.ts string.quoted.single.ts",
-                "source.ts meta.namespace.declaration.ts string.quoted.single.ts",
+                "source.ts meta.import.ts string.quoted",
+                "source.ts meta.decorator.ts meta.objectliteral.ts meta.object.member.ts string.quoted",
+                "source.ts meta.class.ts meta.field.declaration.ts meta.objectliteral.ts meta.object.member.ts string.quoted",
+                "source.ts meta.class.ts meta.field.declaration.ts string.quoted",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.array.literal.ts string.quoted",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.block.ts string.quoted",
+                "source.ts meta.namespace.declaration.ts string.quoted",
                 "source.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts string.template.ts",
                 "source.ts meta.var.expr.ts meta.array.literal.ts meta.objectliteral.ts meta.object.member.ts string.quoted",
                 "source.ts meta.function.ts meta.block.ts new.expr.ts string.quoted",
                 "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts string.quoted",
                 "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts string.regexp.ts constant.other.character-class.set.regexp",
-                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts string.quoted punctuation.definition.string",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts punctuation.definition",
                 "source.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts string.quoted",
-                "source.ts meta.enum.declaration.ts string.quoted"
+                "source.ts meta.enum.declaration.ts string.quoted",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts string.quoted",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts string.template.ts",
+                "source.ts meta.class.ts meta.decorator.ts string.quoted",
+                "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts",
+                "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts keyword.operator",
+                "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts keyword.control"
             ],
             "settings": {
                 "foreground": "#fcb08ae6"
@@ -556,8 +563,8 @@
         {
             "scope": [
                 "source.cs",
-                "source.cs string.quoted.double.cs meta.interpolation.cs variable.other.readwrite.cs",
-                "source.cs string.quoted.double.cs meta.interpolation.cs variable.other.object.property.cs",
+                "source.cs string.quoted meta.interpolation.cs variable.other.readwrite.cs",
+                "source.cs string.quoted meta.interpolation.cs variable.other.object.property.cs",
                 "text.xml meta.tag.xml entity.other.attribute-name.localname.xml"
             ],
             "settings": {
@@ -596,8 +603,8 @@
         },
         {
             "scope": [
-                "source.cs string.quoted.double.cs",
-                "text.xml meta.tag.xml string.quoted.double.xml"
+                "source.cs string.quoted",
+                "text.xml meta.tag.xml string.quoted"
             ],
             "settings": {
                 "foreground": "#fcb08ae6"
@@ -648,7 +655,7 @@
         },
         {
             "scope": [
-                "source.json string.quoted.double.json",
+                "source.json string.quoted",
                 "source.json punctuation.definition.string"
             ],
             "settings": {
@@ -685,7 +692,7 @@
         {
             "scope": [
                 "text.html.markdown",
-                "source.js string.quoted.single.js",
+                "source.js string.quoted",
                 "text.gitignore",
                 "source.editorconfig"
             ],

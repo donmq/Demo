@@ -5,26 +5,26 @@
     "colors": {
         "----------Editor---------": "-----------------------",
         "editor.background": "#222222",
-        // "màu chữ trong git graph"
+        "------------------------màu chữ trong git graph----------------": "",
         "editor.foreground": "#fff",
         "editor.selectionBackground": "#2E303EB3",
-        // "Màu trỏ chuột"
+        "-----------------------Màu trỏ chuột----------------": "",
         "editorCursor.foreground": "#f30f4c",
         "editor.selectionHighlightBackground": "#6C6F934D",
-        // dòng được bôi đen
+        "-----------------------dòng được bôi đen----------------": "",
         "editor.wordHighlightBackground": "#6C6F9380",
         "editor.wordHighlightStrongBackground": "#6C6F9380",
         "editor.findMatchBackground": "#6C6F9380",
         "editor.findMatchHighlightBackground": "#6C6F934D",
         "editor.findRangeHighlightBackground": "#6C6F931A",
-        // dòng được focus
+        "----------------------dòng được focus-----------------": "",
         "editor.lineHighlightBackground": "#43474b46",
         "editor.foldBackground": "#43474bE6",
         "editor.rangeHighlightBackground": "#2E303E80",
         "editorCursor.background": "#1C1C1C",
         "editorGroup.border": "#797979",
         "editorGroup.dropBackground": "#6C6F934D",
-        // Màu số dòng đang focus
+        "-----------------------Màu số dòng đang focus-------------": "",
         "editorLineNumber.activeForeground": "#D5D8DA80",
         "editorLineNumber.foreground": "#797979",
         "editorRuler.foreground": "#6C6F934D",
@@ -41,10 +41,10 @@
         "editorOverviewRuler.bracketMatchForeground": "#D5D8DA80",
         "editorError.foreground": "#ff3300",
         "editorWarning.foreground": "#27D797B3",
-        // các dòng được thay đổi so sánh với github
+        "--------------------------các dòng được thay đổi so sánh với github-------------":"",
         "diffEditor.insertedTextBackground": "#09F7A01A",
         "diffEditor.removedTextBackground": "#F43E5C1A",
-        // màu thông tin khi focus code
+        "---------------------------màu thông tin khi focus code----------------------":"",
         "editorWidget.background": "#333333",
         "editorWidget.border": "#333333",
         "editorSuggestWidget.highlightForeground": "#0670e0",
@@ -69,7 +69,7 @@
         "sideBarSectionHeader.background": "#2e2e2e",
         "sideBarSectionHeader.foreground": "#D5D8DAB3",
         "----------Thanh tabs---------": "-----------------------",
-        // Thanh công cụ bên góc trên phải của VSC
+        "-------------------Thanh công cụ bên góc trên phải của VSC----------------------":"",
         "editorGroupHeader.tabsBackground": "#1c1c1d",
         "tab.inactiveBackground": "#242424",
         "tab.border": "#1C1C1C",
@@ -106,7 +106,7 @@
         "terminal.ansiMagenta": "#EE64AC",
         "terminal.ansiRed": "#E95678",
         "terminal.ansiYellow": "#FAB795",
-        // title terminal
+        "-----------------------------title terminal-------------------------------":"",
         "panel.background": "#1c1c1d",
         // "panel.border": "#ffg",
         "----------Menu---------": "-----------------------",
@@ -117,23 +117,18 @@
         // "menu.separatorBackground": "#fefefe32",
         // "window.activeBorder": "#9292e424",
         "editor.hoverHighlightBackground": "#6C6F934D",
-        // các đường line chạy dọc,
+        "------------------------các đường line chạy dọc-----------------------------":"",
         "editorIndentGuide.background": "#3f3a3a",
         "editorIndentGuide.activeBackground": "#e97555",
         "editorWhitespace.foreground": "#3b3a32",
         "----------Hover Widget---------": "-----------------------",
-        // "editorHoverWidget.background": "#",
-        // "editorHoverWidget.border": "#",
-        // "editorHoverWidget.foreground": "#",
-        // "editorGutter.addedBackground": "#",
-        // "editorGutter.foldingControlForeground": "#",
         "editorGutter.modifiedBackground": "#21BFC2B3",
         "editorGutter.deletedBackground": "#F43E5CB3",
         "----------Misc---------": "-----------------------",
         "scrollbar.shadow": "#16161C",
         "sash.hoverBorder": "#EE64AC",
         "focusBorder": "#43474b7e",
-        // "màu chữ trên các thanh"
+        "-------------------------màu chữ trên các thanh----------------------------":"",
         "foreground": "#D5D8DA",
         "widget.shadow": "#16161C",
         "selection.background": "#6C6F9380",
@@ -144,28 +139,28 @@
         "dropdown.background": "#353535",
         "dropdown.listBackground": "#2E303E",
         "input.background": "#424242",
-        // màu chữ ô input
+        "---------------------------màu chữ ô input---------------------------------":"",
         "input.foreground": "#818CA6",
         "input.border": "#1A1F2E",
         "input.placeholderForeground": "#3D4D67",
         "inputOption.activeBorder": "#E9436D80",
         "inputValidation.errorBackground": "#ee582f",
         "inputValidation.errorBorder": "#ee582f",
-        // thanh cuộn
+        "-------------------------------thanh cuộn---------------------------------":"",
         "scrollbarSlider.activeBackground": "#6C6F9380",
         "scrollbarSlider.background": "#6C6F931A",
         "scrollbarSlider.hoverBackground": "#6C6F934D",
         "badge.foreground": "#D5D8DA",
         "badge.background": "#2E303E",
         "progressBar.background": "#0670e0",
-        // màu bên thanh chọn file được focus
+        "-----------------------màu bên thanh chọn file được focus------------------":"",
         "list.activeSelectionBackground": "#303B50",
         "list.activeSelectionForeground": "#ffffff",
         "list.dropBackground": "#6C6F9380",
         "list.focusBackground": "#43474b",
         "list.focusForeground": "#D5D8DA",
         "list.highlightForeground": "#0670e0",
-        // thể hiện các dòng đc focus trong extension
+        "-----------------thể hiện các dòng đc focus trong extension---------------":"",
         "list.hoverBackground": "#43474b",
         "list.hoverForeground": "#D5D8DA",
         "list.inactiveSelectionBackground": "#43474b7e",
@@ -186,7 +181,7 @@
         "extensionButton.prominentHoverBackground": "#E9436D",
         "pickerGroup.foreground": "#0670e0",
         "walkThrough.embeddedEditorBackground": "#232530",
-        // "màu chữ"
+        "-------------------------------màu chữ-----------------------------------": "",
         "gitDecoration.addedResourceForeground": "#27D797B3",
         "gitDecoration.modifiedResourceForeground": "#ecd484",
         "gitDecoration.deletedResourceForeground": "#F43E5C",
@@ -200,7 +195,8 @@
         },
         {
             "scope": [
-                "comment"
+                "comment",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts comment.line.double-slash.ts punctuation.definition.comment.ts"
             ],
             "settings": {
                 "foreground": "#6A9955"
@@ -243,22 +239,15 @@
         },
         {
             "scope": [
-                "html-template.ng meta.element.inline.html meta.attribute.class.html entity.other.attribute-name.html html-template.ng.attributes.generic",
-                "html-template.ng meta.attribute.class.html entity.other.attribute-name.html html-template.ng.attributes.generic",
                 "html-template.ng meta.ng-binding.two-way.html entity.other.attribute-name.html entity.other.ng-binding-name",
-                "html-template.ng meta.element.custom.html meta.ng-binding.property.html entity.other.attribute-name.html entity.other.ng-binding-name.property.html entity.other.ng-binding-name.binding.html",
-                "html-template.ng meta.element.structure.html meta.attribute.for.html entity.other.attribute-name.html html-template.ng.attributes.generic",
-                "html-template.ng meta.attribute entity.other.attribute-name.html html-template.ng.attributes.generic",
-                "html-template.ng meta.element.custom.html meta.ng-binding.template.sugar.html entity.other.attribute-name.html html-template.ng.attributes",
-                "html-template.ng meta.element.custom.html meta.ng-binding.event.html entity.other.attribute-name.html",
-                "html-template.ng meta.ng-binding.template.sugar.html entity.other.attribute-name.html html-template.ng.attributes",
-                "html-template.ng meta.element.structure.html meta.ng-binding.event.html entity.other.attribute-name.html",
-                "html-template.ng meta.ng-binding.template.variable.boolean.html entity.other.attribute-name.html html-template.ng.attributes",
-                "html-template.ng meta.element.structure.html meta.ng-binding.property.html entity.other.attribute-name.html",
                 "html-template.ng meta.ng-binding.event.html entity.other.attribute-name.html",
                 "html-template.ng meta.ng-binding.property.html entity.other.attribute-name.html entity.other.ng-binding-name.property.html",
-                "html-template.ng meta.attribute.event-handler entity.other.attribute-name.html html-template.ng.attributes.events",
-                "html-template.ng meta.element.custom.html"
+                "html-template.ng meta.tag.structure meta.attribute entity.other.attribute-name.html",
+                "html-template.ng meta.tag meta.attribute entity.other.attribute-name.html",
+                "html-template.ng meta.tag meta.ng-binding entity.other.attribute-name.html",
+                "html-template.ng meta.attribute entity.other.attribute-name.html html-template.ng.attributes.generic",
+                "html-template.ng meta.ng-binding.template.sugar.html entity.other.attribute-name.html html-template.ng.attributes",
+                "html-template.ng meta.element meta.ng-binding.template entity.other.attribute-name.html html-template.ng.attributes.template"
             ],
             "settings": {
                 "foreground": "#83df55"
@@ -269,7 +258,8 @@
                 "html-template.ng string.quoted",
                 "html-template.ng meta.attribute.class.html string.quoted",
                 "html-template.ng expression.ng html-template.ng.interpolation.expression expression.ng punctuation.definition.block.ts html-template.ng.interpolation",
-                "html-template.ng expression.ng html-template.ng.interpolation.expression string.quoted"
+                "html-template.ng expression.ng html-template.ng.interpolation.expression string.quoted",
+                "html-template.ng meta.element.custom.html"
             ],
             "settings": {
                 "foreground": "#fcb08ae6"
@@ -309,7 +299,9 @@
                 "html-template.ng entity.name.function.ts",
                 "html-template.ng meta.element.inline.html constant.character.other",
                 "html-template.ng meta.element.structure.html expression.ng html-template.ng.interpolation.expression constant.character.other",
-                "html-template.ng meta.element.custom.html meta.ng-binding.event.html variable.other.property.ts"
+                "html-template.ng meta.element.custom.html meta.ng-binding.event.html variable.other.property.ts",
+                "html-template.ng meta.element.structure.html meta.ng-binding.event.html keyword.operator.expression",
+                "html-template.ng meta.tag meta.ng-binding expression.ng variable.other"
             ],
             "settings": {
                 "foreground": "#ffed91"
@@ -347,7 +339,6 @@
         },
         {
             "scope": [
-                "source.css.scss entity.name.tag.custom.scss",
                 "source.css.scss meta.property-list.scss meta.property-value.scss keyword.other.important.scss"
             ],
             "settings": {
@@ -403,6 +394,15 @@
             }
         },
         {
+            "scope": [
+                "source.css.scss entity.name.tag.custom.scss",
+                "source.css.scss meta.property-list.scss meta.property-value.scss variable.scss"
+            ],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
             "-------------TypeScript----------": "------TypeScript-------"
         },
         {
@@ -410,7 +410,7 @@
                 "source.ts",
                 "source.ts meta.class.ts meta.field.declaration.ts variable.other.constant.property.ts",
                 "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.arrow.ts meta.var.expr.ts meta.embedded.line.ts",
-                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts string.template.ts meta.template.expression.ts meta.embedded.line.ts variable.other.property.ts"
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts string.template.ts meta.template.expression.ts meta.embedded.line.ts variable.other"
             ],
             "settings": {
                 "foreground": "#8AD7FF"
@@ -418,7 +418,8 @@
         },
         {
             "scope": [
-                "source.ts meta keyword.control"
+                "source.ts meta keyword.control",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.operator.expression.delete.ts"
             ],
             "settings": {
                 "foreground": "#C74DED"
@@ -450,7 +451,11 @@
                 "source.ts meta.var.expr.ts meta.array.literal.ts meta.objectliteral.ts meta.object.member.ts variable.other.property.ts",
                 "source.ts meta.decorator.ts meta.objectliteral.ts meta.object.member.ts meta.array.literal.ts meta.function-call.ts variable.other.object.ts",
                 "source.ts meta.function.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
-                "source.ts meta.enum.declaration.ts entity.name.type.enum.ts"
+                "source.ts meta.enum.declaration.ts entity.name.type.enum.ts",
+                "source.ts meta.function.ts meta.parameters.ts meta.type.annotation.ts support.type.primitive.ts",
+                "source.ts meta.function.ts meta.return.type.ts support.type.primitive.ts",
+                "source.ts meta.function.ts meta.block.ts meta.var.expr.ts support.type.primitive.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.object.property.ts"
             ],
             "settings": {
                 "foreground": "#4EC9B0"
@@ -486,7 +491,10 @@
                 "source.ts meta.class.ts meta.decorator.ts string.quoted",
                 "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts",
                 "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts keyword.operator",
-                "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts keyword.control"
+                "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts keyword.control",
+                "source.ts meta.function.ts meta.parameters.ts string.quoted",
+                "source.ts meta.function.ts meta.block.ts meta.var.expr.ts string.quoted"
+
             ],
             "settings": {
                 "foreground": "#fcb08ae6"
@@ -525,7 +533,9 @@
                 "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.block.ts entity.name.function.ts",
                 "source.ts meta.function-call.ts entity.name.function.ts",
                 "source.ts meta.var.expr.ts meta.array.literal.ts meta.objectliteral.ts meta.object-literal.key.ts entity.name.function.ts",
-                "source.ts meta.decorator.ts meta.objectliteral.ts meta.object.member.ts meta.array.literal.ts meta.function-call.ts entity.name.function.ts"
+                "source.ts meta.decorator.ts meta.objectliteral.ts meta.object.member.ts meta.array.literal.ts meta.function-call.ts entity.name.function.ts",
+                "source.ts meta.block.ts meta.interface.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts",
+                "source.ts entity.name.function.ts"
             ],
             "settings": {
                 "foreground": "#ffed91"
@@ -623,8 +633,9 @@
                 "source.cs entity.name.type.namespace.cs",
                 "source.cs entity.name.type.cs",
                 "source.cs variable.other.object.cs",
-                "entity.name.type.class.cs",
-                "source.cs entity.name.type.interface.cs"
+                "source.cs entity.name.type.interface.cs",
+                "entity.name.type"
+
             ],
             "settings": {
                 "foreground": "#4EC9B0"

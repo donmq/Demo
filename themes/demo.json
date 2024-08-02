@@ -259,7 +259,8 @@
                 "html-template.ng meta.tag meta.ng-binding entity.other.attribute-name.html",
                 "html-template.ng meta.attribute entity.other.attribute-name.html html-template.ng.attributes.generic",
                 "html-template.ng meta.ng-binding.template.sugar.html entity.other.attribute-name.html html-template.ng.attributes",
-                "html-template.ng meta.element meta.ng-binding.template entity.other.attribute-name.html html-template.ng.attributes.template"
+                "html-template.ng meta.element meta.ng-binding.template entity.other.attribute-name.html html-template.ng.attributes.template",
+                "html-template.ng meta.attribute.event-handler entity.other.attribute-name.html html-template.ng.attributes.events"
             ],
             "settings": {
                 "foreground": "#83df55"
@@ -313,7 +314,8 @@
                 "html-template.ng meta.element.structure.html expression.ng html-template.ng.interpolation.expression constant.character.other",
                 "html-template.ng meta.element.custom.html meta.ng-binding.event.html variable.other.property.ts",
                 "html-template.ng meta.element.structure.html meta.ng-binding.event.html keyword.operator.expression",
-                "html-template.ng meta.tag meta.ng-binding expression.ng variable.other"
+                "html-template.ng meta.tag meta.ng-binding expression.ng variable.other",
+                "html-template.ng expression.ng html-template.ng.interpolation.expression constant.character.other"
             ],
             "settings": {
                 "foreground": "#ffed91"
@@ -431,7 +433,8 @@
         {
             "scope": [
                 "source.ts meta keyword.control",
-                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.operator.expression.delete.ts"
+                "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.operator.expression.delete.ts",
+                "source.ts meta.class.ts meta.method.declaration.ts storage.modifier.async.ts"
             ],
             "settings": {
                 "foreground": "#C74DED"

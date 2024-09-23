@@ -163,7 +163,7 @@
         "badge.foreground": "#D5D8DA",
         "badge.background": "#2E303E",
         "progressBar.background": "#0670e0",
-        "minimap.background": "#ffffff10",
+        "minimap.background": "#24304790",
         "-----------------------màu bên thanh chọn file được focus------------------": "",
         "list.activeSelectionBackground": "#303B50",
         "list.activeSelectionForeground": "#ffffff",
@@ -298,7 +298,8 @@
                 "html-template.ng constant.language.boolean",
                 "html-template.ng constant.character.entity.named.nbsp.html",
                 "html-template.ng keyword.other.important.scss",
-                "html-template.ng meta.ng-binding.event.html variable.other.property.ts"
+                "html-template.ng meta.ng-binding.event.html variable.other.property.ts",
+                "html-template.ng meta.element.custom.html string.quoted.double.html"
             ],
             "settings": {
                 "foreground": "#569CD6"

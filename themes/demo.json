@@ -260,7 +260,10 @@
                 "html-template.ng meta.attribute entity.other.attribute-name.html html-template.ng.attributes.generic",
                 "html-template.ng meta.ng-binding.template.sugar.html entity.other.attribute-name.html html-template.ng.attributes",
                 "html-template.ng meta.element meta.ng-binding.template entity.other.attribute-name.html html-template.ng.attributes.template",
-                "html-template.ng meta.attribute.event-handler entity.other.attribute-name.html html-template.ng.attributes.events"
+                "html-template.ng meta.attribute.event-handler entity.other.attribute-name.html html-template.ng.attributes.events",
+                "html-template.ng meta.attribute entity.other.attribute-name.html",
+                "html-template.ng meta.ng-binding.template.sugar.boolean.html entity.other.attribute-name.html html-template.ng.attributes",
+                "html-template.ng meta.ng-binding.template.variable.html entity.other.attribute-name.html html-template.ng.attributes.template"
             ],
             "settings": {
                 "foreground": "#83df55"
@@ -273,6 +276,8 @@
                 "html-template.ng expression.ng html-template.ng.interpolation.expression expression.ng punctuation.definition.block.ts html-template.ng.interpolation",
                 "html-template.ng expression.ng html-template.ng.interpolation.expression string.quoted",
                 "html-template.ng meta.element.custom.html"
+                
+                
             ],
             "settings": {
                 "foreground": "#fcb08ae6"
@@ -509,7 +514,12 @@
                 "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts keyword.operator",
                 "source.ts meta.class.ts meta.field.declaration.ts new.expr.ts string.regexp.ts keyword.control",
                 "source.ts meta.function.ts meta.parameters.ts string.quoted",
-                "source.ts meta.function.ts meta.block.ts meta.var.expr.ts string.quoted"
+                "source.ts meta.function.ts meta.block.ts meta.var.expr.ts string.quoted",
+                "source.ts meta.export.ts string.quoted.single.ts",
+                "source.ts switch-statement.expr.ts switch-block.expr.ts string.quoted",
+                "source.ts meta.var.expr.ts string.quoted",
+                "source.ts switch-statement.expr.ts switch-block.expr.ts string.template.ts",
+                "source.ts string.template.ts"
             ],
             "settings": {
                 "foreground": "#fcb08ae6"
@@ -567,7 +577,8 @@
         {
             "scope": [
                 "variable.other.constant",
-                "variable.other.enummember"
+                "variable.other.enummember",
+                "source.ts switch-statement.expr.ts switch-block.expr.ts string.template.ts meta.template.expression.ts meta.embedded.line.ts variable.other.readwrite.ts"
             ],
             "settings": {
                 "foreground": "#4FC1FF"
